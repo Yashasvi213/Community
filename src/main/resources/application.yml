@@ -1,0 +1,29 @@
+spring:
+ datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/Community
+    username: root
+    password: root
+ security:
+    oauth2:
+       client:
+          registration:
+            google:
+              clientName: google
+              clientId: 516386181217-dcq9hummtkn25uik0pn12jinqpcbkkt6.apps.googleusercontent.com
+              clientSecret: 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
+              scope: email,profile
+              
+      
+       
+          
+ 
+spring.jpa:
+  hibernate.ddl-auto: update
+  show-sql: true
+
+
+
+
+
+  
